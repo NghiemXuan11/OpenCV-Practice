@@ -2,8 +2,8 @@ import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
 
-img1 = cv.imread('Box.jpg', cv.IMREAD_GRAYSCALE)
-img2 = cv.imread('box_in_scene3.jpg', cv.IMREAD_GRAYSCALE)
+img1 = cv.imread('thang11.jpg', cv.IMREAD_GRAYSCALE)
+img2 = cv.imread('thang1.jpg', cv.IMREAD_GRAYSCALE)
 
 # Initiate SIFT detector
 sift = cv.SIFT_create()

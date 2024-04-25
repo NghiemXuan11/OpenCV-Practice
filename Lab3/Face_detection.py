@@ -48,7 +48,7 @@ def detect_and_draw_faces(image):
 
 
 # Load the input image
-input_image = cv2.imread('box_in_scene2.jpg')
+input_image = cv2.imread('thang2.jpg')
 
 # Detect faces and draw rectangles around them
 output_image = detect_and_draw_faces(input_image)
