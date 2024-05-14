@@ -58,14 +58,14 @@ def stitch_images(img1, img2, img3):
     panorama[:h1, :w1] = img1
     panorama[:h2, w1:w1+w2] = warped_img2
     panorama[:h3, w1+w2:] = warped_img3
-
+    
     return panorama
 
 
 # Load images
-img1 = cv2.imread('images/3_images/first.jpg')
-img2 = cv2.imread('images/3_images/second.jpg')
-img3 = cv2.imread('images/3_images/third.jpg')
+img1 = cv2.imread('img02.jpg')
+img2 = cv2.imread('img03.jpg')
+img3 = cv2.imread('img04.jpg')
 
 # Check if images are loaded successfully
 if img1 is None or img2 is None or img3 is None:
@@ -87,6 +87,8 @@ cv2.imshow('Panorama', resized_panorama)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+
+#============================================================================================================
 
 # import numpy as np
 # from PIL import Image
@@ -145,4 +147,9 @@ cv2.destroyAllWindows()
 
 # # Save the panorama image
 # panorama.save('panorama.jpg')
+
+
+#===============================================================================================
+
+
 
