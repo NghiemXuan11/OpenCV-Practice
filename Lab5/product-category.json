@@ -1,0 +1,81 @@
+{
+  "product-Category": [
+    {
+      "title":"Danh mục Samsung",
+      "parent_id": "",
+      "description": "<p>Danh mục chứa c&aacute;c đồ c&ocirc;ng nghệ từ h&atilde;ng SamSung&nb…",
+      "thumbnail" : "http://res.cloudinary.com/dt7opubpk/image/upload/v1711718617/rttf8kyle…",
+      "status": "active",
+      "position": 3,
+      "deleted": false
+    },
+    {
+      "title":"Danh mục Airpod",
+      "parent_id": "65fc02c16846eeda4c24df64",
+      "description": "<p>Danh mục chứa c&aacute;c đồ c&ocirc;ng nghệ từ h&atilde;ng Apple&nb…",
+      "thumbnail" : "http://res.cloudinary.com/dt7opubpk/image/upload/v1711718617/rttf8kyle…",
+      "status": "active",
+      "position": 4,
+      "deleted": false    
+    },
+    {
+      "title":"Danh mục test1",
+      "parent_id": "",
+      "description": "",
+      "thumbnail" : "http://res.cloudinary.com/dt7opubpk/image/upload/v1711718617/rttf8kyle…",
+      "status": "active",
+      "position": 5,
+      "deleted": false          
+    },
+    {
+      "title":"Danh mục test2",
+      "parent_id": "",
+      "description": "",
+      "thumbnail" : "",
+      "status": "active",
+      "deleted": false        
+    },
+    {
+      "title":"Danh mục test3",
+      "parent_id": "65fc02c16846eeda4c24df64",
+      "description": "<p>Danh mục chứa c&aacute;c đồ c&ocirc;ng nghệ từ h&atilde;ng Apple&nb…",
+      "thumbnail" : "",
+      "status": "active",
+      "deleted": false    
+    },
+    {
+      "title":"Danh mục test4",
+      "parent_id": "65fc02c16846eeda4c24df64",
+      "description": "<p>Danh mục chứa c&aacute;c đồ c&ocirc;ng nghệ từ h&atilde;ng Apple&nb…",
+      "thumbnail" : "",
+      "status": "active",
+      "position": 10,
+      "deleted": false  
+    },
+    {
+      "title":"Danh mục test5",
+      "parent_id": "",
+      "description": "<p>Danh mục chứa c&aacute;c đồ c&ocirc;ng nghệ từ h&atilde;ng Apple&nb…",
+      "thumbnail" : "",
+      "status": "active",
+      "deleted": false        
+    },
+    {
+      "title":"Danh mục test6",
+      "parent_id": "",
+      "description": "",
+      "thumbnail" : "",
+      "status": "active",
+      "deleted": false   
+    },
+    {
+      "title":"Danh mục test7",
+      "parent_id": "",
+      "description": "<p>Danh mục chứa c&aacute;c đồ c&ocirc;ng nghệ từ h&atilde;ng Apple&nb…",
+      "thumbnail" : "",
+      "status": "active",
+      "position": -2,
+      "deleted": false       
+    }
+  ]
+}
