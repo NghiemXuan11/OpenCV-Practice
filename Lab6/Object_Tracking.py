@@ -41,7 +41,7 @@ cv2.setMouseCallback('Frame', draw_rectangle)
 # Initialize Lucas-Kanade parameters
 lk_params = dict(winSize=(15, 15),
                  maxLevel=2,
-                 criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))
+                 criteria=(cv2.TERM_CRITERIA_EPS | cv2.TERM_CRITERIA_COUNT, 10, 0.03))  # Lucas Kanade
 
 # Read the first frame
 ret, frame = cap.read()
